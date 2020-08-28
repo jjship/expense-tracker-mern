@@ -1,7 +1,7 @@
 const express = require('express');
-const dotenv = require('dotenv');
+const dotenv = require('dotenv'); // global variables
 const colors = require('colors');
-const morgan = require('morgan');
+const morgan = require('morgan'); // logger
 const connectDB = require('./config/db');
 
 dotenv.config({ path: './config/config.env' });
